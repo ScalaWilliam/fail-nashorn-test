@@ -3,7 +3,7 @@ https://github.com/nidi3/graphviz-java/compare/master...ScalaWilliam:attempt-jdk
 
 That code tries to use the latest version of vizjs.
 
-However it seems to work. THe error I get there, when running `mvn -Dtest=EngineTest test`, is:
+However it seems to work. The error I get there, when running `mvn -Dtest=EngineTest test`, is:
 
 ```
 [INFO] Running guru.nidi.graphviz.engine.EngineTest
@@ -161,3 +161,9 @@ Exception Details:
         at java.lang.Thread.run(Thread.java:745)
 
 ```
+
+
+
+# This project
+
+Even with assertions on, it succeeds: `MAVEN_OPTS="-ea" mvn test`.
